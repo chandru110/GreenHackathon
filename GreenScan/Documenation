@@ -1,0 +1,29 @@
+The website features a clean and minimalistic design focused on ease of use for both canteen staff and users. The layout is intuitive, with a responsive interface that works well on both desktops and tablets, ensuring smooth operation at the canteen counter.
+
+Landing Page:
+Login Section: At the top of the page, there’s a simple login form where staff can enter their credentials to access the system. Alternatively, a barcode scanner is integrated to allow direct login by scanning staff IDs.
+Switch User Button: At the top right, there’s a button to easily switch between users, clearing the current session and returning to the main user scanning interface.
+Search Bar: Below the login, there’s a search bar for manually looking up product barcodes or user details if needed.
+Main Page (After Staff Login):
+User Profile Section:
+
+A large “Scan User” button or scan input field dominates the screen. When a user barcode is scanned (e.g., a student ID), the user’s profile is pulled up, showing their name, student ID number, and a list of their previous purchases.
+The page also displays any packaging that needs to be returned by the user and holds placed on specific products.
+Product Scanning Section:
+
+Right below the user profile section, there’s a product scanning area where staff can scan products. This section immediately logs the products being purchased, showing the name, price, and the 50% hold applied for each product in real-time.
+Each product scanned is added as a list item showing details like:
+Product name
+Barcode/QR code
+Price
+Hold amount (displayed in a separate column)
+Return & Refund Section:
+
+If the user is returning a product, staff can scan the packaging again, and the system checks whether it matches any prior purchases. If there is a match, the hold is released, and a notification is shown.
+The system automatically updates the user’s balance and removes the hold from the list of items.
+Footer:
+Status Updates: At the bottom of the page, there is a live update bar showing the status of the current transaction, whether the hold is being applied or released, and any errors (e.g., unrecognized barcodes).
+Switch User Button: A large, easily accessible button labeled “Switch User” is available at the footer, allowing staff to move to the next user quickly after each transaction.
+Additional Features:
+Transaction History Page: There’s an option for staff to view a user’s purchase history, showing past purchases and returned products. This helps in tracking repeated violations or patterns of waste.
+Admin Dashboard: For managers, an admin dashboard is available (hidden for regular staff) where they can access system-wide reports on packaging returns, total holds applied and released, and canteen performance in reducing waste.
